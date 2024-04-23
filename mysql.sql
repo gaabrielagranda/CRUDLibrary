@@ -1,8 +1,9 @@
-drop database IF EXISTS Libro;
-CREATE DATABASE IF NOT EXISTS Libro;
-USE Libro;
+drop database IF EXISTS libro;
+CREATE DATABASE IF NOT EXISTS libro;
 
-CREATE TABLE IF NOT EXISTS libros (
+USE libro;
+
+CREATE TABLE IF NOT EXISTS libro (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
     autor VARCHAR(255) NOT NULL,
